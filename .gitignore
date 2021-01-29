@@ -102,3 +102,13 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Idea IDEs
+.idea/
+
+# Mac
+.DS_Store
+
+# Gatsby files
+.cache/
+public
