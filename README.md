@@ -1,0 +1,1 @@
+# bartoszadamczyk.com
