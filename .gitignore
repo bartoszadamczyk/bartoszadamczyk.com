@@ -112,3 +112,6 @@ dist
 # Gatsby files
 .cache/
 public
+
+# Optional eslint cache
+.eslintcache

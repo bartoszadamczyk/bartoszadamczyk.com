@@ -1,0 +1,4 @@
+# Gatsby files
+.cache
+public
+gatsby-config.js
