@@ -1,0 +1,20 @@
+.Hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+
+  .inner {
+    width: 70vw;
+    margin: 20vh 0;
+  }
+
+  h1 {
+    font-size: calc(6vw + 3vh);
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: calc((6vw + 3vh) * 0.12 + 10px);
+  }
+}
