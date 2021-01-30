@@ -2,10 +2,11 @@ import React from "react"
 import Hero from "./Hero/Hero"
 
 const primaryHeader = "Hi, I'm Bartek"
+const gitHubLink = <a href="https://github.com/bartoszadamczyk">GitHub</a>
+const linkedInLink = <a href="https://www.linkedin.com/in/bartoszadamczyk/">LinkedIn</a>
 const secondaryHeader = (
   <>
-    Checkout my <a href="https://github.com/bartoszadamczyk">GitHub</a> and{" "}
-    <a href="https://www.linkedin.com/in/bartoszadamczyk/">LinkedIn</a> pages
+    Check out my {gitHubLink} and {linkedInLink} pages
   </>
 )
 

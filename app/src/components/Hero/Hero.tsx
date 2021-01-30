@@ -3,7 +3,7 @@ import "./Hero.scss"
 
 type Hero = {
   primaryHeader: string
-  secondaryHeader: Element
+  secondaryHeader: JSX.Element
 }
 
 const Hero = ({ primaryHeader, secondaryHeader }: Hero) => {
