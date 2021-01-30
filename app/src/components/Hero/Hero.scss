@@ -3,15 +3,17 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 
   .inner {
     width: 70vw;
-    margin: 20vh 0;
+    padding-bottom: 15vh;
   }
 
   h1 {
     font-size: calc(6vw + 3vh);
     font-weight: bold;
+    margin-bottom: 7vh;
   }
 
   h2 {
