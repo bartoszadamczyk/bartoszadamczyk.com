@@ -18,20 +18,6 @@ module.exports = {
         path: path.join(__dirname, "src", "images"),
       }
     },
-    {
-      resolve: "gatsby-plugin-manifest",
-      options: {
-        name: "About Bartosz Adamczyk",
-        short_name: "Bartosz Adamczyk",
-        description: "About Bartosz Adamczyk",
-        lang: "en",
-        display: "standalone",
-        icon: "static/favicon.svg",
-        start_url: "/",
-        background_color: "#663399",
-        theme_color: "#fff"
-      }
-    },
     "gatsby-plugin-remove-serviceworker"
   ]
 }
