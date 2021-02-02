@@ -8,9 +8,9 @@ const Home = () => {
     <>
       <Helmet defer={false}>
         <meta charSet="utf-8" />
-        <title>Bartosz Adamczyk</title>
+        <title>Hi, I&#39;m Bartek</title>
         <html lang="en" />
-        <meta name="description" content="About Bartosz Adamczyk" />
+        <meta name="description" content="Hi, I'm Bartek" />
       </Helmet>
       <App />
     </>
