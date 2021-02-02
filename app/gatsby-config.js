@@ -32,6 +32,6 @@ module.exports = {
         theme_color: "#fff"
       }
     },
-    "gatsby-plugin-offline"
+    "gatsby-plugin-remove-serviceworker"
   ]
 }
