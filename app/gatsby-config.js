@@ -18,6 +18,20 @@ module.exports = {
         path: path.join(__dirname, "src", "images"),
       }
     },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Hi, I'm Bartek",
+        short_name: "Hi, I'm Bartek",
+        description: "Hi, I'm Bartek",
+        lang: "en",
+        display: "standalone",
+        icon: "static/favicon.svg",
+        start_url: "/",
+        background_color: "#fff",
+        theme_color: "#fff"
+      }
+    },
     "gatsby-plugin-remove-serviceworker"
   ]
 }
